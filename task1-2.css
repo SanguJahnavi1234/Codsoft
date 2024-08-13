@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.nav{
+    height: 7%;
+    width: 100vw;
+    background-color: white;
+    justify-content:space-between;
+}
+.menu ul{
+    display:flex;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    margin-left: 8rem;
+}
+.menu li a:hover{
+    cursor: pointer;
+    background-color: purple;
+    text-decoration: solid;
+    
+}   
+.head{
+    font-size: 20px;
+    font-family:cursive;
+}
+
+.main h2{
+    margin-top: 3rem;
+}
+.main button{
+    margin-top: 2rem;
+    background-color:blueviolet;
+    width: 10%;
+    height: 2rem;
+    border: none;
+    justify-content: space-around;
+}
+.main{
+    width: 100vw;
+    height: 60%;      
+}
+.img{
+    display: flex;
+}
+#img1{
+    width: 5%;
+    height: 8%;    
+}
+#img2{
+    width: 5%;
+    height: 8%;
+}
+#img3{
+    width: 5%;
+    height: 8%;
+}
+#im5{
+   float: right;
+   margin-right: 9rem;
+   margin-bottom: 19rem;
+   width: 25%;
+   height: 10%;
+}
+.sit{
+    width: 100%;
+    height: 60%;
+}
+#p1{
+    width: 30%;
+    height:55%;
+    margin-bottom: 10rem;
+}
+.sit h2{
+    float: right;
+}
+.board{
+    width: 100%;
+    height: 60%;
+
+}
+#im6{
+    float: right;
+    margin-right: 9rem;
+    height: 15%;
+    width: 30%;
+    margin-top: 5rem;
+}
+.board button{
+    width: 60%;
+    height: 2rem;
+    background-color: blueviolet;
+    border-radius: 4rem;
+    
+}
+#b1{
+    width: 40%;
+    height: 2rem;
+    background-color: blueviolet;
+    border-radius: 4rem;
+}
+#b2{
+    width: 20%;
+    height: 2rem;
+    background-color: blueviolet;
+    border-radius: 4rem;
+}
+.sub{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.box1{
+    width: 45%;
+    height: 25%;
+    background-color: gray;
+    justify-content: space-between;
+    margin-top: 9rem;
+    margin-right: 10rem;
+}
+.box2{
+    width: 45%;
+    height:30%;
+    background-color:whitesmoke;
+    margin-top: 9rem;
+    margin-right: 10rem;
+}
+.big{
+    width: 100%;
+    height: 60%;
+}
+#img8{
+    margin-left: 40rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.big h2{
+    text-align: center;
+}
+.cert{
+    width: 100%;
+    height: 80%;
+}
+.modes{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.mod1{
+    width: 30%;
+    height: 70%;
+    background-color:whitesmoke;
+    margin-top: 2rem;
+}
+#i1{
+    margin-left: 5rem;
+}
+.mod1 h1{
+    margin-left: 5rem;
+}
+.mod2{
+    width: 30%;
+    background-color:whitesmoke;
+    margin-top: 2rem;
+}
+#i2{
+    margin-left:5rem;
+}
+.mod2{
+    text-align: center;
+}
+.mod3{
+    width: 30%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+}
+#i3{
+    margin-left: 3rem;
+}
+.mod3 h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.mod3 p{
+    text-align: center;
+}
+.blog{
+    width: 100%;
+    height: 70%;
+    background-color:white;
+}
+.rect{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rec1{
+    margin-top: 2rem;
+    width: 40%;
+    background-color: whitesmoke;
+}
+
+.rec1 h1{
+    margin-left: 1rem;
+    
+}
+.rec1 p{
+    margin-left: 1rem;
+}
+.rec2{
+    width: 40%;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+}
+.talks{
+    width: 100%;
+    height: 60%;
+    background-color:white
+}
+.action{
+    width: 20%;
+    height: 60%;
+    background-color: whitesmoke;
+    margin-left: 35rem;
+}
+.action h1{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.action p{
+    margin-left: 1rem;
+}
+#bu1{
+    width: 20%;
+    height: 13%;
+    background-color: blueviolet;
+    margin-left: 2rem;
+}
+#bu2{
+    width: 20%;
+    height: 13%;
+    background-color: blueviolet;
+    margin-left: 4rem;
+}
+.tweet{
+    width: 100%;
+    height: 60%;
+
+}
+.you{
+    width: 10%;
+    height: 15%;
+    background-color: whitesmoke;
+    display: flex;
+
+}
+#y1{
+    width: 20%;
+    height: 80%;
+}
+.tweet p{
+    margin-left: 4rem;
+}
+#butt{
+    width: 80%;
+    height: 20%;
+    background-color: whitesmoke;
+    border: none;
+    margin-left: 4rem;
+}
+.podcast{
+    width: 100%;
+    height: 90%;
+}
+#pod{
+    margin-left: 3rem;
+
+}
+.out{
+    width: 100%;
+    height: 50%;
+}
+.out h1{
+    margin-left: 4rem;
+}
+.out p{
+    margin-left: 4rem;
+}
+.out h3{
+    margin-left: 4rem;
+}
+#post{
+    margin-left: 80rem;
+}
+#img1{
+    margin-left: 2rem;
+}
